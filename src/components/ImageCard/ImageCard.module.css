@@ -1,0 +1,16 @@
+.imageListItem {
+    width: calc((100% - 36px) / 4);
+	max-height:300px;
+    cursor: pointer;
+    transition: transform 150ms ease-in-out;
+}
+
+.imageListItem:hover {
+    transform: scale(1.03);
+}
+
+.image {
+    object-fit: cover;
+    height: 100%;
+	width: 100%;
+}

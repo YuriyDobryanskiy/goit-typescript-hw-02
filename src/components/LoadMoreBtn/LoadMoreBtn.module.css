@@ -1,0 +1,13 @@
+.buttonContainer {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px;
+    border: none;
+    background-color: rgb(55, 90, 165);
+    color: white;
+    border-radius: 4px;
+}
