@@ -55,7 +55,7 @@ const App: React.FC = () => {
               total: number;
               total_pages: number;
               results: [];
-            } = await requestForImage(userQuery, page);
+            } = await requestForImage<{ total: number; total_pages: number; results: [] }>(userQuery, page);
             if (responseData.total === 0) {
               setNoResults(true);
             }
